@@ -1,0 +1,34 @@
+.Background {
+  background: linear-gradient(#6f7357 49%, #6f7357 1%, #273a2d 49%, #273a2d 1%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins",sans-serif;
+}
+.Background .infosLogin{
+    background-color: #FFFFFF;
+    width: 90%;
+    height: max-content;
+    padding:15px;
+    border-radius: 3px;
+}
+.Background .infosLogin h2{
+    text-align: center;
+    font-weight: bold;
+}
+.or{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.or h3{
+    width: max-content;
+    color: rgba(#000000, #000000, #000000, 0.1);
+    font-weight: normal;
+}
+.line{
+    width: 40%;
+    height: 2px;
+    background-color: black;
+}
