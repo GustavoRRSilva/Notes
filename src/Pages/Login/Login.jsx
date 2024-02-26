@@ -9,7 +9,7 @@ const Login = ({ name, img, src, alt,inputType}) => {
         <h2>Welcome back!</h2>
         <ButtonInfo
           name="Entre com o google"
-          src="src\assets\iconGoogle.svg"
+          src="https://cdn.iconscout.com/icon/free/png-512/free-google-160-189824.png?f=webp&w=256"
           alt="Icone do google"
         />
         <div className="or">

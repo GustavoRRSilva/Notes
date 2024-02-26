@@ -13,6 +13,6 @@
     gap: 5px;
 }
 .ButtonInfoFilho .iconButton{
-    width: max-content;
-   
+    width: 100%;
+    max-width:18px;
 }
