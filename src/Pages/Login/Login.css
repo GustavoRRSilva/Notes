@@ -11,10 +11,13 @@
   height: max-content;
   padding: 15px;
   border-radius: 3px;
+ 
+
 }
 .Background .infosLogin h2 {
   text-align: center;
   font-weight: bold;
+  margin-top: 10px;
 }
 .logoNotes{
   position: absolute;
@@ -75,7 +78,7 @@
  
 }
 .loginButton{
-    margin-top: 15px;
+    margin: 15px 0 10px 0;
     background-color: #C8AD8D;
     border: none;
     padding: 12px 0;
@@ -83,6 +86,7 @@
     font-size: 1em;
     font-weight: 600;
     transition: 0.5s;
+
 }
 .loginButton:focus{
     background-color: #E4C5C4;
