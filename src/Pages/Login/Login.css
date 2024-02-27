@@ -74,6 +74,20 @@
   font-weight: bold;
  
 }
+.loginButton{
+    margin-top: 15px;
+    background-color: #C8AD8D;
+    border: none;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.loginButton:focus{
+    background-color: #E4C5C4;
+    transition: 0.5s;
+}
 @media screen and (max-width: 398px) {
   .saveAndForget a {
     width: 100%;
