@@ -1,9 +1,9 @@
 import React from "react";
-import './InputText.css'
+import styles from './InputText.module.css'
 const InputText = ({type,placeholder})=>{
     return(
         <>
-        <input type = {type} name="" id="" className="InputTextLogin" placeholder = {placeholder}/>
+        <input type = {type} name="" id="" className={styles.inputTextLogin} placeholder = {placeholder}/>
         </>
     )
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./Login.css";
 import ButtonInfo from "../../Componentes/ButtonInfo/ButtonInfo";
 import InputText from "../../Componentes/InputText/InputText";
-const Login = ({ name, img, src, alt,inputType}) => {
+const Login = ({ name, img, src, alt, inputType }) => {
   return (
     <div className="Background">
       <div className="infosLogin">
@@ -17,8 +17,15 @@ const Login = ({ name, img, src, alt,inputType}) => {
           <h3>or</h3>
           <span className="line"></span>
         </div>
-        <InputText type = "Text" placeholder = "Seu email"/>
-        <InputText type = "password" placeholder = "Sua senha"/>
+        <InputText type="Text" placeholder="Seu email" />
+        <InputText type="password" placeholder="Sua senha" />
+        <section className="saveAndForget">
+          <div className="save">
+            <input type="checkbox" name="" id="" />
+            <p>Salve minha conta</p>
+          </div>
+          <a href="#"><p>Esqueci a senha</p></a>
+        </section>
       </div>
     </div>
   );
