@@ -12,6 +12,7 @@
     align-content: center;
     gap: 5px;
     text-align: center;
+    max-height: 40px;
 }
 .ButtonInfoFilho .iconButton{
     width: 100%;

@@ -11,22 +11,19 @@
   height: max-content;
   padding: 15px;
   border-radius: 3px;
- 
-
 }
 .Background .infosLogin h2 {
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
 }
-.logoNotes{
+.logoNotes {
   position: absolute;
-    max-width: 50px;
-    max-height: 50px;
-    top:0;
-    right:0;
-    margin: 5px 5px 0px 0px;
-
+  max-width: 50px;
+  max-height: 50px;
+  top: 0;
+  right: 0;
+  margin: 5px 5px 0px 0px;
 }
 .or {
   display: flex;
@@ -63,7 +60,7 @@
   font-size: 0.8em;
 }
 .save input {
-  width:20px;
+  width: 20px;
   margin: auto 2.5px auto 0;
 }
 .saveAndForget a {
@@ -75,22 +72,32 @@
   text-align: right;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
- 
 }
-.loginButton{
-    margin: 15px 0 10px 0;
-    background-color: #C8AD8D;
-    border: none;
-    padding: 12px 0;
-    border-radius: 5px;
-    font-size: 1em;
-    font-weight: 600;
-    transition: 0.5s;
-
+.loginButton {
+  margin: 15px 0 10px 0;
+  background-color: #c8ad8d;
+  border: none;
+  padding: 12px 0;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
+  transition: 0.5s;
 }
-.loginButton:focus{
-    background-color: #E4C5C4;
-    transition: 0.5s;
+.loginButton:focus {
+  background-color: #e4c5c4;
+  transition: 0.5s;
+}
+.imgLogin {
+  display: unset;
+}
+.loginGeral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.imgLogin {
+  display: none;
 }
 @media screen and (max-width: 398px) {
   .saveAndForget a {
@@ -105,3 +112,38 @@
     margin-bottom: 2.5px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .imgLogin {
+    display: flex;
+    max-height: 600px;
+    justify-content: center;
+    background-color: #6f7357;
+    width: 100%;
+    max-width: 900px;
+  }
+  .imgLoginSvg {
+    width: 55%;
+  }
+  .loginGeral {
+    padding: 0px 20px;
+  }
+  .infosLogin {
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .Background .infosLogin {
+    height: 90%;
+    width: 100%;
+    max-width: 900px;
+  }
+ 
+  .Background {
+    background: linear-gradient(to right, #6f7357 50%, #273a2d 50%);
+  }
+}
+
