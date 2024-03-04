@@ -6,7 +6,6 @@
     padding: 8px 5px;
     border-radius: 3px;
     font-size: 1em;
-    max-height: 40px;
     max-width: 100%;
 }
 .inputTextLogin::placeholder{
@@ -16,4 +15,11 @@
 }
 .inputTextLogin:focus{
     outline: 0;
+}
+
+@media screen and (min-width:768px) {
+    .inputTextLogin{
+       max-height: 55px;
+       max-width: 80%;
+    }
 }

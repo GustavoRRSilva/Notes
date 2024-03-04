@@ -16,6 +16,7 @@
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
+  height: max-content;
 }
 .logoNotes {
   position: absolute;
@@ -30,12 +31,15 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  height: max-content;
 }
 .or h3 {
+  height: max-content;
   width: max-content;
   color: rgba(#000000, #000000, #000000, 0.1);
   font-weight: 900;
   font-size: 0.9em;
+
 }
 .line {
   width: 40%;
@@ -120,13 +124,15 @@
     justify-content: center;
     background-color: #6f7357;
     width: 100%;
-    max-width: 900px;
+    padding: 10px;
+    max-width: 600px;
+    border-radius: 0px 5px 5px 0px;
   }
   .imgLoginSvg {
-    width: 55%;
+    width: 50%;
   }
   .loginGeral {
-    padding: 0px 20px;
+    padding: 20px;
   }
   .infosLogin {
     max-height: 600px;
@@ -134,16 +140,48 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    max-width: 900px;
+    border-radius: 5px  0px 0px 5px ;
   }
   .Background .infosLogin {
     height: 90%;
-    width: 100%;
-    max-width: 900px;
+    max-width: 600px;
+  
   }
  
   .Background {
     background: linear-gradient(to right, #6f7357 50%, #273a2d 50%);
+    font-size: 1.2em;
+  }
+  .infosLogin > div {
+    margin: 0 auto;
+  }
+
+  .save, .save input, .save p,.saveAndForget,.loginButton{
+    height: max-content;
+  }
+  .loginButton{
+    width: 70%;
+    padding: -10px 0;
+  }
+  .saveAndForget{
+    width: 80%;
+    margin-top: -10px;
+  }
+
+  .Background h2{
+    font-size: 2em;
+  }
+  .or{
+    width: 80%;
+  }
+  .saveAndForget{
+    display: flex;
+    justify-content: center;
+  }
+  .save p{
+    min-width: 162px;
   }
 }
 
