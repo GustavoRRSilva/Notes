@@ -103,6 +103,38 @@
 .imgLogin {
   display: none;
 }
+.inputTextLogin{
+  margin-top: 10px;
+  background-color: #F8F7F7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 8px 5px;
+  border-radius: 3px;
+  font-size: 1em;
+  max-width: 100%;
+}
+.inputTextLogin::placeholder{
+  color:rgba(0, 0, 0, 0.3);
+  font-weight:700;
+
+}
+.inputTextLogin:focus{
+  outline: 0;
+}
+.err{
+  text-align: center;
+  height: max-content;
+  margin-top: 5px;
+}
+.erro{
+  height: max-content;
+}
+@media screen and (min-width:768px) {
+  .inputTextLogin{
+     max-height: 55px;
+     max-width: 80%;
+  }
+}
 @media screen and (max-width: 398px) {
   .saveAndForget a {
     width: 100%;
@@ -182,6 +214,11 @@
   }
   .save p{
     min-width: 162px;
+  }
+  .loginButton:hover{
+    cursor: pointer;
+    background-color: #e4c5c4;
+    transition: 0.5s;
   }
 }
 
